@@ -1,5 +1,5 @@
-import logging 
+import google.generativeai as genai
 
-logging.basicConfig(level=logging.DEBUG)
+client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
+model = genai.GenerativeModel()
 
-logging.debug("User logged in")
