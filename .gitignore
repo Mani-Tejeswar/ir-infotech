@@ -2,6 +2,10 @@
 .env
 .envrc
 .venv
+
+# Debug / scratch files
+test_gemini.py
+ex.py
 env/
 venv/
 ENV/
